@@ -10,6 +10,12 @@ public class ControllerClass
 
     @GetMapping("/deploy")
     public  String codeDeploy(){
-        return  "Welcome to code deployment using AWS,Git,SonarQube,Jenkins,Docket";
+        int number=5;
+
+        if(number>5){
+           System.out.println("Git is greater than 5");
+        }
+        return  "Welcome to code deployment using AWS,Git,SonarQube,Jenkins,Docker + ";
     }
+
 }

@@ -12,7 +12,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="t.git.docker.aws.kubernates" options="-parameters" />
+      <module name="t.git.docker.aws.kubernates" options="" />
     </option>
   </component>
 </project>
